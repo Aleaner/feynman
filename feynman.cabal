@@ -36,6 +36,7 @@ library
 
                        Feynman.Optimization.PhaseFold,
                        Feynman.Optimization.TPar,
+                       Feynman.Optimization.HPhaseFold,
 
                        Feynman.Verification.SOP,
 
@@ -83,7 +84,7 @@ executable feynopt
 
 executable feynver
   main-is:             FeynVerify.hs
-  buildable:           True
+  buildable:           False
   ghc-options:         -O2
   default-extensions:  GADTs,
                        ExistentialQuantification,
