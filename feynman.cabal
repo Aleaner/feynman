@@ -63,7 +63,7 @@ library
 
 executable feynopt
   main-is:             FeynOpt.hs
-  buildable:           True
+  buildable:           False
   ghc-options:         -O2
   default-extensions:  GADTs,
                        ExistentialQuantification,
